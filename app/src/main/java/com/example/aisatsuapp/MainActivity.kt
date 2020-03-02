@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }else if (hour >= 10 && hour <=17 && minute >= 0) {
                 textView.text = "こんにちは"
 
-                }else if (hour >= 18 || hour == 1 && minute >= 0) {
+                }else if (hour >= 18 || hour == 1 || hour == 0 && minute >= 0) {
                     textView.text = "こんばんは"
                 }
 
